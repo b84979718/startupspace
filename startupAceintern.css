@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0px;
+}
+
+.background {
+    border-radius: 20px;
+    min-height: 90vh;
+    font-family: "Bree Serif";
+}
+
+@media (min-width: 992px) {
+    .background {
+        display: flex;
+    }
+}
+
+.login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-grow: 1;
+}
+
+.input-element {
+    border-radius: 30px;
+}
+
+.input-element-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.forgot-password {
+    color: #47d68e;
+    font-weight: 700;
+}
+
+.sign-in-button {
+    background-color: #48c284;
+    color: #ffffff;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    border-width: 0px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.background2 {
+    background-color: #47d68e;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    flex-grow: 1;
+    height: 90vh;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+@media (max-width: 991px) {
+    .background2 {
+        display: none;
+    }
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.paragraph {
+    font-size: 20px;
+}
