@@ -24,6 +24,11 @@ body {
     flex-grow: 1;
 }
 
+.background1 {
+    width: 350px;
+    height: 400px;
+}
+
 .input-element {
     border-radius: 30px;
 }
