@@ -26,11 +26,17 @@ body {
 
 .background1 {
     width: 350px;
-    height: 400px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.company-name {
+    font-size: 45px;
 }
 
 .input-element {
     border-radius: 30px;
+    height: 50px;
 }
 
 .input-element-section {
@@ -46,8 +52,8 @@ body {
 .sign-in-button {
     background-color: #48c284;
     color: #ffffff;
-    height: 40px;
-    width: 200px;
+    height: 45px;
+    width: 240px;
     border-radius: 30px;
     border-width: 0px;
     font-size: 20px;
