@@ -10,7 +10,7 @@ body {
     font-family: "Bree Serif";
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     .background {
         display: flex;
     }
